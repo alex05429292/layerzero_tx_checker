@@ -627,7 +627,19 @@ async def run():
 
         await asyncio.gather(*tasks)
         time.sleep(3)
-    
+ 
+async def drun():
+
+    wallets_list = (list(func_chunks_generators(WALLETS, 50)))
+
+    lens = 0
+    for wallets in wallets_list:
+
+        lens = len(wallets) + lens
+
+        tasks = []
+        for wallet in wallets:
+            tasks.append(asyncio.create_task(main(wallet)))
 
 if __name__ == "__main__":
 
