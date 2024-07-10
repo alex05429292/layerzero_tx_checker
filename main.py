@@ -1,5 +1,4 @@
-from config import *
-
+from config import 
 
 def round_to(num, digits=3):
     if num == 0: return 0
@@ -44,7 +43,6 @@ def get_prices():
 
         logger.info(prices)
         print()
-
         return prices
     
     except Exception as error:
