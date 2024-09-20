@@ -6,9 +6,6 @@ import math
 import random
 import asyncio, aiohttp
 import csv
-from loguru import logger
-from setting import *
-
 
 outfile = ''
 with open(f"{outfile}wallets.txt", "r") as f:
