@@ -5,7 +5,6 @@ import datetime as date_timestamp
 import math
 import random
 import asyncio, aiohttp
-import csv
 
 outfile = ''
 with open(f"{outfile}wallets.txt", "r") as f:
