@@ -9,11 +9,8 @@ def round_to(num, digits=3):
     except: return num
 
 def get_prices():
-
     try:
-
         logger.info('get prices')
-
         prices = {
             'ETH': 0, 
             'BNB': 0, 
@@ -27,12 +24,9 @@ def get_prices():
             'BUSD': 0,
             'agEUR': 0
         }
-
         for symbol in prices:
-
             url =f'https://min-api.cryptocompare.com/data/price?fsym={symbol}&tsyms=USDT'
             response = requests.get(url)
-
             try:
                 result  = [response.json()]
                 price   = result[0]['USDT']
