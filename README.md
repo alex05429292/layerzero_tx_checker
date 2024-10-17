@@ -1,7 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=LayerZero+:+tx_checker)](https://git.io/typing-svg)
-
-Скрипт парсит все транзакции через сканы, ищет совпадения по контракту из модулей (ниже) и выписывает в csv файл результат.
-
 1. testnet bridge : 
 - arbitrum  => goerli (eth) 
 - optimism  => goerli (eth) 
@@ -92,5 +88,3 @@
 
 # Результат :
 После выполнения скрипта, данные будут записаны в csv файл. Теперь его нужно импортировать в гугл таблицу. Как это сделать : https://topgoogle.ru/kak-importirovat-i-otkryt-csv-fajl-v-google-tablicax/
-
-Паблик : https://t.me/hodlmodeth. [ code ] чат : https://t.me/code_hodlmodeth
