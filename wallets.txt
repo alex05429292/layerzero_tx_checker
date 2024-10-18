@@ -6,7 +6,6 @@ const blacklist: Record<string, boolean> = {
   '0x397ff1542f962076d0bfe58ea045ffa2d347aca0': true, // Sushi USDC/ETH
   '0x74de5d4fcbf63e00296fd95d33236b9794016631': true, // MetaMask Swap Router
   '0xdb6f1920a889355780af7570773609bd8cb1f498': true, // 0x Exchange Proxy
-  '0x0000000000000000000000000000000000000000': true, // Zero Address
   '0xf2e4209afa4c3c9eaa3fb8e12eed25d8f328171c': true, // USDC Exchange
   '0xc590175e458b83680867afd273527ff58f74c02b': true, // Exchange
   '0xd01e3549160c62acabc4d0eb89f67aafa3de8eed': true, // ClipperDirectExchange
