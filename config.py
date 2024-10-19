@@ -9,19 +9,14 @@ import asyncio, aiohttp
 outfile = ''
 with open(f"{outfile}wallets.txt", "r") as f:
     WALLETS = [row.strip() for row in f]
-
 with open(f"{outfile}data/arb_api.txt", "r") as f:
     ARB_API_KEYS = [row.strip() for row in f]
-
 with open(f"{outfile}data/opt_api.txt", "r") as f:
     OPT_API_KEYS = [row.strip() for row in f]
-
 with open(f"{outfile}data/avax_api.txt", "r") as f:
     AVAX_API_KEYS = [row.strip() for row in f]
-
 with open(f"{outfile}data/bsc_api.txt", "r") as f:
     BSC_API_KEYS = [row.strip() for row in f]
-
 with open(f"{outfile}data/eth_api.txt", "r") as f:
     ETH_API_KEYS = [row.strip() for row in f]
 
