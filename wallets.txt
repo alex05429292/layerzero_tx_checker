@@ -111,13 +111,10 @@ const blacklist: Record<string, boolean> = {
   '0x7a5C76Fc62e03d5542249892d6d44970A127738E': true, // MATIC faucet
   '0x80fffd9b53fbe2d3ac4bd3c8235dee1734e44604': true, // Funding accounts that may not be related
   '0x63b770bd6ec4ef5b592c7e30e8d30c8d4e7844b8': true, // Address collects ETH and sometimes sends it back
-
   // '0x0000000000000000000000000000000000000000': true, //
-
   // Other Bridges
   '0x6090de2ec76eb1dc3b5d632734415c93c44fd113': true, // Connext
   '0x115909bdcbab21954beb4ab65fc2abee9866fa93': true, // Connext
-
   // Hop Bonders
   '0x710bda329b2a6224e4b44833de30f38e7f81d564': true,
   '0xa6a688f107851131f0e1dce493ebbebfaf99203e': true,
@@ -125,7 +122,6 @@ const blacklist: Record<string, boolean> = {
   '0xd8781ca9163e9f132a4d8392332e64115688013a': true,
   '0x9137a628546e2b1bc26f60a5d1262fb6d58ea44a': true,
   '0x305933e09871d4043b5036e09af794facb3f6170': true,
-
   // Hop Addresses
   '0x2a6303e6b99d451df3566068ebb110708335658f': true,
   '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': true,
