@@ -37,13 +37,11 @@ const blacklist: Record<string, boolean> = {
   '0x2009a752a50d3cde486d7b5921944377b729e747': true, // Meebits DAO polygon faucet
   '0x7db69ec6e74890fac3f296bed85fcf8b64902874': true, // Exchange address
   '0xd5c08681719445a5fdce2bda98b341a49050d821': true, // Exchange address
-  '0xe3a586247f0e9ea9fd580955d1b195ebda13fdab': true, // Exchange address,
   '0x8595dd9e0438640b5e1254f9df579ac12a86865f': true, // Ezil       Ezil Mining pool distributor
   '0xc3348b43d3881151224b490e4aa39e03d2b1cdea': true, // Ezil       Ezil Mining pool distributor
   '0x2819c144d5946404c0516b6f817a960db37d4929': true, // Remitano   P2P trading app
   '0x7ed1e469fcb3ee19c0366d829e291451be638e59': true, // Freewallet App distributor
   '0x4e80744fa23cec76e1621ce0dfaceb4b1d532e12': true, // Duelbits   App distributor
-  '0x00cdc153aa8894d08207719fe921fff964f28ba3': true, // Bitzlato   P2P trading app
   '0x167a9333bf582556f35bd4d16a7e80e191aa6476': true, // Coinone    Exchange
   '0xfe44daeb65166846fccb3f4aa7186e36247b1c1e': true, // Unknown exchange
   '0xc7ff87f75d23cda8f346c88fbba7b1eb9453a441': true, // Unknown exchange
