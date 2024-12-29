@@ -1095,10 +1095,8 @@ const blacklist: Record<string, boolean> = {
   '0xac56a9e051ef1821cb4f3a0427fc941286c4e9e8': true, // hiveon spreader 5
   '0xa11ae3a981d50bcd4c9ff6732c1f815483475ff8': true, // hiveon spreader 6
   '0xc33997fd8b9251b49151911def437bca7a78ba00': true, // hiveon spreader 7
-  '0x95ca6baf212be85b238413d461d20a2aa8354dd5': true, // hiveon spreader 8
   '0xc94ebb328ac25b95db0e0aa968371885fa516215': true, // unknown exchange
   '0x832f166799a407275500430b61b622f0058f15d6': true, // unknown exchange
-  '0xf598b81ef8c7b52a7f2a89253436e72ec6dc871f': true, // unknown exchange
   '0x00d29bfdf5f8d2d0466da4b948f37692ca50867a': true, // 2miners 1
   '0x00a86233f4d65f4018ca7f8626b96ce72af05a7c': true, // 2miners 2
   '0x00192fb10df37c9fb26829eb2cc623cd1bf599e8': true, // 2miners pplns
