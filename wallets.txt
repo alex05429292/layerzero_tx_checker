@@ -1013,7 +1013,6 @@ const blacklist: Record<string, boolean> = {
   '0x5564ac438eb845cf0607cf26c78c241907a00e83': true, // argent relayer 5
   '0xf2b7bb875675536dbd23f42a57193fccd04d8d33': true, // argent relayer 6
   '0xce1a056461836e3f4eefb0a59da46bbd98502a17': true, // argent relayer 7
-  '0x1ced2cef30d40bb3617f8d455071b69f3b12d06f': true, // argent relayer 8
 
   // polymarket relayers
   '0xab45c5a4b0c941a2f231c04c3f49182e1a254052': true, // polymarket relayer
