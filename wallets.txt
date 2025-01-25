@@ -120,7 +120,6 @@ const blacklist: Record<string, boolean> = {
   '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': true,
   '0x3666f603cc164936c1b87e207f36beba4ac5f18a': true,
   '0x88ad09518695c6c3712ac10a214be5109a655671': true,
-  '0x12e59c59d282d2c00f3166915bed6dc2f5e2b5c7': true,
   '0xf6a78083ca3e2a662d6dd1703c939c8ace2e268d': true,
   '0xddafbb505ad214d7b80b1f830fccc89b60fb7a83': true,
   '0x25d8039bb044dc227f741a9e381ca4ceae2e6ae8': true,
