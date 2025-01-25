@@ -10,7 +10,6 @@ const blacklist: Record<string, boolean> = {
   '0xc590175e458b83680867afd273527ff58f74c02b': true, // Exchange
   '0xd01e3549160c62acabc4d0eb89f67aafa3de8eed': true, // ClipperDirectExchange
   '0x8dfdea6a4818d2aa7463edb9a8841cb0c04255af': true, // Zapper
-  '0xf3f3433c3a97f70349c138ada81da4d3554982db': true, // USDC/USDT
   '0x85149247691df622eaf1a8bd0cafd40bc45154a9': true, // USDC/WETH
   '0x100bdc1431a9b09c61c0efc5776814285f8fb248': true, // USDC/DAI
   '0x6d608c51c198c728c0a00bfdfa8fef5d57ff4424': true, // Zapper
