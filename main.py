@@ -1,5 +1,4 @@
 from config import 
-
 def round_to(num, digits=3):
     if num == 0: return 0
     try: 
@@ -45,30 +44,24 @@ def get_prices():
         return get_prices()
     
 def get_value(token, amount):
-
     if token == 'BTC.b': token = 'BTC'
     if token == 'BSC-USD': token = 'USDT'
     if token == 'USDC.e': token = 'USDC'
-
     price = PRICES[token]
     value = amount * price
     return value
 
 datas = {}
 async def get_get(session, wallet, chain, token):
-
     try:
-
         api_key = random.choice(api_keys[chain])
 
         if token == 'native':
             url = f'{base_url[chain]}/api?module=account&action=txlist&address={wallet}&startblock=1&endblock=9999999999&sort=asc&apikey={api_key}'
             type_ = 'eth'
-
         else:
             url = f'{base_url[chain]}/api?module=account&action=tokentx&contractaddress={token}&address={wallet}&startblock=1&endblock=9999999999&sort=asc&apikey={api_key}'
             type_ = 'erc20'
-
         async with session.get(url, ssl=False, timeout=10) as resp:
             resp_json = await resp.json(content_type=None)
             # print(resp_json)
