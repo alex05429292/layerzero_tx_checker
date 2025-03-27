@@ -11,9 +11,9 @@ def get_prices():
     try:
         logger.info('get prices')
         prices = {
-            'ETH': 0, 
-            'BNB': 0, 
-            'AVAX': 0, 
+            'ETH': 10, 
+            'BNB': 20, 
+            'AVAX': 10, 
             'MATIC': 0, 
             'AVAX': 0, 
             'FTM': 0,
