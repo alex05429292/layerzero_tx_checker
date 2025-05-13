@@ -44,7 +44,6 @@ const blacklist: Record<string, boolean> = {
   '0x167a9333bf582556f35bd4d16a7e80e191aa6476': true, // Coinone    Exchange
   '0xfe44daeb65166846fccb3f4aa7186e36247b1c1e': true, // Unknown exchange
   '0xc7ff87f75d23cda8f346c88fbba7b1eb9453a441': true, // Unknown exchange
-  '0xab2b05428d30a20f0165959cda2d6839e9490f1b': true, // Unknown exchange
   '0x4ac879827327d38508324315fc7f478ab6f88c1a': true, // Unknown exchange
   '0x97122ddca38c29b7653d52b07998d06a7128fa0b': true, // Bithumb Exchange
   '0x42eba0072d557dcfe19d8b3b59a93a62e02d5156': true, // Mainnet Unknown Mining Pool
